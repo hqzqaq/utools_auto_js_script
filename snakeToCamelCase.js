@@ -1,3 +1,5 @@
+// 下划线转驼峰
+
 function toCamelCase(str) {
     const parts = str.split('_').filter(p => p);
     return parts[0] + parts.slice(1).map(p => p[0].toUpperCase() + p.slice(1)).join('');

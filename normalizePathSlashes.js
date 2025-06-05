@@ -1,3 +1,5 @@
+// 反斜杠转斜杠
+
 const result = ENTER.payload.replaceAll('\\', '/')
 
 if (ENTER.from === 'panel') {
